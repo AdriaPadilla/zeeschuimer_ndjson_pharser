@@ -2,7 +2,6 @@ import glob
 import ndjson
 import json
 import pandas as pd
-import tqdm
 from datetime import datetime
 
 files = glob.glob("*.ndjson")
